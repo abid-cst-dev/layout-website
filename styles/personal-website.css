@@ -275,3 +275,77 @@ footer h3{
   height: 40px;
   display: block;
 }
+
+/* MEDIA QUEREY */
+
+@media screen and (max-width:576px){
+
+    nav ul {
+        margin: 0 auto;
+        gap: 1.5rem;
+        padding-bottom: 30px;
+    }    
+
+    nav a{
+        font-size: 1.3rem;
+    }
+
+    .img-container {
+        margin-top: -17.5rem;
+        margin-left: -3.75rem;
+    }
+
+    .empty {
+        width: 25%;
+        height: 20%;
+        bottom: 10%;
+    }
+
+    .inner-text {
+        padding-left: 10%;
+    }
+
+    .section-heading-2 button{
+        padding: 1.5rem 2rem
+    }
+
+    #banner-2 {
+        margin-bottom: 40px;
+    }
+
+    main h2 {
+        padding-top: 50px;
+        margin-bottom: 2rem;
+    }
+
+    .section-heading-2 p {
+        margin-bottom: 2rem;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        margin-inline: auto;
+        margin-bottom: 0;
+    }
+
+    .card:nth-child(3) {
+        margin-bottom: 30px;
+    }
+
+    .footer-banner {
+        flex-direction: column;
+        height: 300px;
+        background-size: 100% 100%;
+        border-radius: 30px;
+        margin-bottom: 80px;
+    }
+
+    .icon-container {
+        margin-bottom: 20px;
+    }
+}
