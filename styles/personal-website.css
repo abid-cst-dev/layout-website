@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* SHARED STYLES */
+
+body{
+    font-family: "Work Sans", sans-serif;    
+    max-width: 1340px;
+    margin: auto;
+}
+
+h1, h2, footer p{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+button{
+    font-family: inherit;
+}
+
+/* NAVIGATION */
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    margin-left: auto;
+    gap: 2.7rem;
+    list-style: none;
+    padding-top: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3c3c3c;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* HERO BANNER 1*/
+
+#banner-1 {
+    max-width: 1240px;
+    display: flex;
+    align-items: center;
+}
+
+.section-heading {
+   flex: 1;
+   min-width: 0;
+}
+
+.section-heading h1 {
+    color: #363958;
+    font-size: 5rem;
+    font-weight: 400;
+    margin-bottom: 18px;
+    line-height: 1.1;
+}
+
+.color-text {
+    color: #FF8367;
+}
+
+.section-heading p {
+    color: #3E3E3E;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 2.25rem;
+}
+
+.section-heading button {
+    padding: 1.4rem 3.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    background: linear-gradient(180deg, #F46060, #FF8063); 
+    color: #FFFFFF;
+    border-radius: 6px;
+    border:none;
+}
+
+.img-container {
+    flex: 1;
+    position: relative;
+}
+
+.img-container img {
+    width: 100%;
+    display: block;
+}
+
+.empty {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #F46060;
+    right: 0;
+    bottom: 70px;
+}
+
+/* HERO BANNER 2 */
+
+#banner-2 {
+    margin-top: -110px;
+    max-width: 1240px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 73px;
+}
+
+.img-container-2 {
+    flex: 1;
+    width: 100%;
+}
+
+.img-container-2 img {
+    width: 100%;
+    display: block;
+}
+
+.section-heading-2 {
+    flex: 1;
+    min-width: 0;
+}
+
+.inner-text {
+    padding-left: 20%;
+}
+
+.section-heading-2 h2 {
+    color: #363958;
+    font-size: 5rem;
+    font-weight: 400;
+    margin-bottom: 27px;
+    line-height: 1;
+}
+
+.section-heading-2 p {
+    color: #3E3E3E;
+    font-size: 1rem;
+    margin-bottom: 2.25rem;
+    line-height: 1.5rem;
+}
+
+.section-heading-2 button {
+    padding: 1.6rem 3.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    background: linear-gradient(180deg, #F46060, #FF8063); color: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+}
+
+/* MAIN SECTION */
+
+main {
+    max-width: 1340px;
+    background-color: aliceblue;
+}
+
+main h2 {
+    color: #363958;
+    font-size: 4rem;
+    font-weight: 400;
+    padding-top: 124px;
+    text-align: center;
+    margin-bottom: 4.4rem;
+}
+
+.card-container {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    max-width: 370px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-bottom: 187px;
+}
+
+.card img {
+    width: 100%;
+    padding: 15px 15px;
+}
+
+.card h3, .card p{
+    padding-left: 19px;
+}
+
+.card h3{
+    color: #363958;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+}
+
+.card p{
+    color: #6C6C6C;
+    line-height: 1.75rem;
+    margin-bottom: 1.25rem;
+}
+
+/* FOOTER */
+
+footer{
+    max-width: 1340px;
+    padding-top: 100px;    
+}
+
+.footer-banner{
+    margin: 0 auto;
+    max-width: 906px;
+    min-height: 225px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url(../shapes/Group_33094_1.png); background-size: contain; background-repeat: no-repeat;
+    margin-bottom: 166px;
+}
+
+.footer-banner h2{
+    font-size: 4rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.footer-banner button{
+    padding: 1.4rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    background: linear-gradient(180deg, #F46060, #FF8063); 
+    color: #FFFFFF;
+    border-radius: 6px;
+    border: none;    
+}
+
+footer p, footer h3{
+    text-align: center;
+}
+
+footer p{
+    color: #696871;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+footer h3{
+    color: #363958;
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 1.43rem;
+}
+
+.icon-container {
+    margin: 0 auto;
+    display: flex;
+    width: fit-content;
+    gap: 1.68rem;
+    margin-bottom: 5rem;
+}
+
+.icons img {
+  width: 40px;
+  height: 40px;
+  display: block;
+}
